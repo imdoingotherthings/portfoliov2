@@ -5,9 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('./assets/andrade_5.jpg') no-repeat center center fixed;
+  background-size: cover;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media (max-width: 1024px) { body { background: url('./assets/andrade_2.jpg') no-repeat center center fixed; } }
+@media (max-width:  768px) { body { background: url('./assets/andrade_3.jpg') no-repeat center center fixed; } }
